@@ -59,7 +59,7 @@ module "db" {
 
   # kms_key_id        = "arm:aws:kms:<region>:<account id>:key/<kms key id>"
   name     = "${var.name}"
-  username = "admin"
+  username = "postgres"
   password = "YourPwdShouldBeLongAndSecure!"
   port     = "5432"
 
