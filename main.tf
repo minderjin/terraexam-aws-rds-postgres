@@ -95,8 +95,8 @@ module "db" {
   # Database Deletion Protection
   deletion_protection = var.rds_deletion_protection
 
-  parameters = var.rds_parameters
-  options    = var.rds_options
+  # parameters = var.rds_parameters
+  # options    = var.rds_options
 
   ## Enhanced monitoring ##
   ##
