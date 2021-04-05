@@ -72,7 +72,7 @@ rds_parameters = [
   },
   {
     name  = "client_encoding"
-    value = "utf8mb4"
+    value = "utf8"
   }
 ]
 
